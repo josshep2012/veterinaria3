@@ -1,0 +1,204 @@
+<!DOCTYPE html>
+<html data-dark="" lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./css/style.css">
+    <title>Proyecto Web Jose Idarraga</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Gothic+A1:wght@600&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Gothic+A1:wght@600&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Gothic+A1:wght@600&family=Libre+Franklin:wght@700&display=swap" rel="stylesheet">
+     <link rel="stylesheet" type="text/css" href="./css/style.css" > 
+</head>
+
+<body data-dark style="background-color: #ffffff; " > 
+
+
+
+    <div class="ventexitosa" id="ventex">
+
+
+      <div id="cerrar">
+        <a onclick="document.location.reload();" href="javascript:cerrar()"><p class="cerrarap">CERRAR</p></a>
+         
+
+     </div>
+
+     <p>Datos enviados exitosamente, pronto nos pondremos en contacto. </p>
+
+      
+
+    </div>
+
+
+    <button tabindex="4" class="dark-theme-btn">🌙</button>
+
+
+    <header>
+
+
+        
+
+   
+
+
+        <Nav class="Headernav">
+    
+            <a tabindex="1" class="NavInicio" href="./index.html">INICIO</a>
+            <a tabindex="2" class="NavProductos" href="./catproducto.html">PRODUCTOS</a>
+            <a tabindex="3" id="tercera" href="./catformulario.html">PQRS</a>
+            
+          
+            
+           
+    
+        </Nav>
+    
+    
+        </header>
+
+
+        <main data-dark class="main">
+
+
+          
+
+            
+        <section data-dark class="sectiontres">
+
+
+             <img class="imgdog" src="./imagenes/imagenes_prototipos/animales_dogs.jpg" alt="">
+            
+          
+             <h3 data-dark id="formulariocc">FORMULARIO DE CONTACTO</h3>
+  
+  
+             <div class="divdatos">
+  
+                <h4 id="names">NOMBRES Y APELLIDOS</h4>
+             
+                <h4 id="doccc">NÚMERO DE CELULAR</h4>
+             
+                <h4 id="mail">CORREO ELECTRÓNICO</h4>
+             
+               
+               
+                
+              <form class="formeleccion" action="/action_page.php">
+  
+               <label class="labelselecopc" for="editor">SELECCIONA UNA OPCIÓN:</label>
+               <select tabindex="9" name="editor" id="editortxt">
+                <option value="sintexto">---</option>
+                <option value="peticion">PETICIÓN</option>
+                <option value="queja">QUEJA</option>
+                <option value="reclamo">RECLAMO</option>
+                <option value="solicitud">GARANTIA O DEVOLUCIONES</option>
+                  </select>
+  
+                  
+                 
+              </form>
+               
+  
+  
+              </div>
+  
+             
+  
+  
+            <div class="divllenado">
+  
+  
+              <input tabindex="5" type="" name="" id="divllenarname">
+  
+              <input tabindex="6" type="" name="" id="divllenarcel">
+  
+              <input tabindex="7" type="" name="" id="divllenarmail">
+  
+              <input tabindex="8" type="" name="" id="divllenarcom">
+  
+  
+  
+  
+  
+            </div>
+  
+            
+              <a tabindex="10" href="javascript:abrir()"><button id="enviar">ENVIAR</button></a>
+              
+               <button tabindex="11" onclick="document.location.reload();" id="cancelar">CANCELAR</button>
+  
+  
+  
+          </section>
+
+
+
+        </main>
+
+        <footer class="ftinicio">
+
+    
+ 
+          <h3 class="tituloh3">Ubicación:</h3>
+          <h4 class="tituloh4">Trv 25 a #18 d 25</h4>
+          <h5 class="tituloh5">Mail:</h5>
+          <h6 class="tituloh6">vetanimalandia@gmail.com</h6>
+          <img class="imgmapa" src="./imagenes/imagenes_prototipos/mapa2.jpg" alt="">
+          <img class="imgmail" src="./imagenes/imagenes_prototipos/mail.png" alt="">
+    
+    
+        
+    
+    
+      </footer>
+        
+
+
+
+
+<script>
+
+function abrir(){
+
+ document.getElementById("ventex").style.display="block";
+
+}
+
+
+function cerrar(){
+
+document.getElementById("ventex").style.display="none";
+
+
+
+let refresh = document.getElementById("ventex");
+refresh.addEventListener('click', _ => {
+  location.reload();
+})
+
+}
+
+
+
+
+
+
+
+</script>
+
+
+<script src="./archivos js/DOM.js" type="module"></script>
+
+
+
+</body>
+
+</html>

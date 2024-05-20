@@ -1,0 +1,454 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./css/style.css">
+    <title>Proyecto Web Jose Idarraga</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Gothic+A1:wght@600&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Gothic+A1:wght@600&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Gothic+A1:wght@600&family=Libre+Franklin:wght@700&display=swap" rel="stylesheet">
+     <link rel="stylesheet" type="text/css" href="./css/style.css" >
+     
+</head>
+
+<body data-dark style="background-color: #ffffff; " class="bodyproducto"> 
+
+
+  
+
+    <header>
+
+
+        
+   
+
+
+        <Nav class="Headernav">
+    
+            <a class="NavInicio" href="./index.html">INICIO</a>
+            <a class="NavProductos" href="./catproducto.html">PRODUCTOS</a>
+            <a id="tercera" href="./catformulario.html">PQRS</a>
+            <button class="dark-theme-btn">🌙</button>
+          
+            
+           
+    
+        </Nav>
+    
+    
+        </header>
+  
+        <main data-dark class="main">
+
+
+            <section data-dark class="sectiontwo">
+
+
+
+                 <!-- contenedor uno -->
+
+          
+                   <div class="divcontenedor1">
+
+                    <div class="divopciones">
+                
+                      
+                      <BUtton id="bayuda">CONTÁCTANOS</BUtton>
+                    
+                        <a href="https://wa.me/3166128045"><img src="./imagenes/NUEVAS_IMAGENES/whatsapp.png" class="imgwhatsec2">  </a>                                                             
+   
+                                        
+                      </div>                                  
+                       
+                       <button class="panel-btn" id="btn-carritoc">
+                        <img src="./imagenes/imagenes_prototipos/carrito_de_compras.png" id="imgbtn">
+
+                      </button>
+                        
+                       <div class="panelcategorias">
+
+                       <button id="catpokemon">POKEMÓN</button>
+                       <button id="catpokemon">SUPER MARIO</button>
+                       <button id="catpokemon">ZELDA</button>
+                       <button id="catpokemon">D. KING KONG</button>
+                       
+
+
+
+                       </div>
+
+                       <div class="panel">
+
+
+                        <table class="table1">
+
+                          <thead>
+  
+                            <div class="parrafo1">
+  
+                              <tr>
+
+                                <div class="divnumeral"><th scope="col">#</th></div>
+
+                                <div class="divname"><th scope="col">Item</th></div>
+
+                                <div class="divcantidad"> <th scope="col">Cantidad</th></div>
+                                
+                                <div class="divaccion"><th scope="col">Acción</th></div>
+                               
+                                <div class="total"><th scope="col">Total</th></div>
+                                
+                                
+                              </tr>                                                            
+                                            
+  
+                            </div>
+
+                            
+                          </thead>
+                          <tbody id="items"></tbody>
+                          <tfoot>
+                            <tr id="footer">
+                              <th scope="row" colspan="5">Carrito vacío - comience a comprar!</th>
+                            </tr>
+                          </tfoot>
+                        </table>
+
+
+
+
+
+
+                       </div>
+                       
+
+
+                       
+
+
+                        <template id="template-footer">
+                        <th scope="row" colspan="2">Total productos</th>
+                        <td>10</td>
+                        <td>
+                            <button class="btn btn-danger btn-sm" id="vaciar-carrito">
+                                vaciar todo
+                            </button>
+                        </td>
+                        <td class="font-weight-bold">$ <span>5000</span></td>
+                       </template>
+
+
+                       
+                        <template id="template-carrito">
+                        <tr>
+                          <th scope="row">id</th>
+                          <td>Café</td>
+                          <td>1</td>
+                          <td>
+                              <button class="btn btn-info btn-sm">
+                                  +
+                              </button>
+                              <button class="btn btn-danger btn-sm">
+                                  -
+                              </button>
+                          </td>
+                          <td>$ <span>500</span></td>
+                        </tr>
+                       </template>
+                                                             
+
+
+                      </div>                  
+
+
+
+
+
+                    </div>
+
+                      <!-- contenedor productos -->
+
+                    <div class="contenedorproductos">
+
+                      <!-- contenedor dos -->
+             
+
+                    <div class="contenedor2">
+
+
+                      <!-- producto 1 -->
+
+                      <div class="divproducto1" id="item1">
+
+
+                  
+
+                         <a class="ac1"><button class="charmander" id="">COLLAR ISABELINO</button></a>
+    
+                         </a><img src="./imagenes/imagenes_prototipos/1.isabelino.jpg" class="imgcharmander"></a>
+                         
+                         <a><button class="btn-descrip" id="hideText-btn">Descripcion</button></a>
+                          
+                          <p class="precio1">12000</p>
+
+                          
+
+
+                          <button data-id="1" class="btn-comprar">Comprar</button>
+                           
+    
+    
+                      </div>
+
+
+                      <!-- producto 2 -->
+
+                      <div class="divproducto2" id="item2">
+
+
+                 
+                   
+                               
+                        <a><button id="luigi">CHUNKY</button></a>
+      
+                        <a><img src="./imagenes/imagenes_prototipos/2.Chunky.jpg" class="imgluigi"></a>                                  
+                        
+                        <a><button class="btn-descrip" id="hideText-btn2">Descripcion</button></a>
+
+                        <p class="precio1">15000</p>
+                        <button data-id="2" class="btn-comprar">Comprar</button> 
+      
+                      </div>
+
+
+
+                      <!-- producto 3 -->
+
+                      <div class="divproducto3" id="item3">
+
+
+                        <a>
+    
+                         
+                        <button class="peach">OH MAI GAT</button>                
+    
+    
+                        </a>  
+
+                        <a> <img src="./imagenes/imagenes_prototipos/3.omcat.png" class="imgpeach"></a>
+                        
+                        <a><button class="btn-descrip" id="hideText-btn3">Descripcion</button></a>
+
+                        <a><p class="precio1">16000</p></a>
+                        
+                        
+                        <button data-id="3" class="btn-comprar">Comprar</button> 
+                   
+    
+    
+                      </div>
+
+
+
+
+
+                     
+
+                    </div>  
+                    
+                    
+
+
+
+                    <!-- contenedor tres -->
+
+
+                    <div class="contenedor3">
+
+                    <!-- producto 4 -->
+
+
+                    <div class="divproducto4" id="item4">
+
+                      <a>
+                     
+                        <button class="mario">COLLAR HUESITOS</button>
+                        
+      
+      
+                       </a>      
+
+
+                       <a><img src="./imagenes/imagenes_prototipos/4.collar.jpg" class="imgmario"></a>
+                       
+                       <a><button class="btn-descrip" id="hideText-btn4">Descripcion</button></a>
+
+                       <p class="precio1">14000</p>
+      
+                       <button data-id="4" class="btn-comprar">Comprar</button> 
+      
+      
+                    </div>
+
+
+
+
+                    <!-- producto 5 -->
+
+
+                    <div class="divproducto5" id="item5">
+
+              
+                      <a>
+   
+   
+                       <button id="link">NEXGARD</button>
+                           
+   
+   
+   
+   
+                      </a>
+
+                      <a><img src="./imagenes/imagenes_prototipos/5.nexgard.jpg" class="imglink"></a>
+
+                      <a><button class="btn-descrip" id="hideText-btn5">Descripcion</button></a> 
+
+                      <p class="precio1">17000</p>
+   
+                     
+                      <button data-id="5" class="btn-comprar">Comprar</button> 
+   
+   
+                    </div>
+
+
+
+
+                    <!-- producto 6 -->
+  
+                    <div class="divproducto6" id="item6">
+
+              
+                      <a>
+    
+    
+                      
+                
+    
+                       <button id="dkk">SHAMPOO CAN AMOR </button>
+                       
+    
+    
+    
+    
+                      </a>
+
+
+                      <a><img src="./imagenes/imagenes_prototipos/6.canamor.jpg" class="imgdkk"></a>
+
+                      <a><button class="btn-descrip" id="hideText-btn6">Descripcion</button></a>
+
+                      <p class="precio1">13000</p>
+    
+                     
+                      <button data-id="6" class="btn-comprar">Comprar</button> 
+    
+    
+                    </div>
+                   
+                   
+
+
+
+
+
+                    </div>
+        
+
+
+
+
+
+                    </div>
+
+
+                    
+        
+
+           <!-- final section  -->
+
+
+
+
+           <span class="hidechar" id="hideText"><p class="txtdp1">Collar hecho en material trasparente blando y flexible, además permite una visión integral a tu peludito y lo mejor el material es respetuoso con el medio ambiente.
+          </p></span>
+
+          <span class="hideluigui" id="hideTextdos"><p class="txtdp2"> Alimento para perro marca Chunky el cual entrega los niveles perfectos de proteína, grasa y carbohidratos para que no le faltara energía a tu peludito.
+          </p></span>
+
+          <span class="hidepeach" id="hideText3"><p class="txtdp3">Creado especialmente para gatos, este producto alimenticio es delicioso y otorga el balance de nutrientes ideal para que mantenga su energía. 
+          </p></span>
+
+          <span class="hidemario" id="hideText4"><p class="txtdp4">Elegante collar circular adornado con huesitos para que tu perrito se vea más hermoso.
+          </p></span>
+
+          <span class="hidelink" id="hideText5"><p class="txtdp5">Medicamento antipulgas, es comestible y con sabor a carne el cual contribuye al control de los parásitos y asi tu perrito pueda estar sano. 
+          </p></span>
+
+          
+          <span class="hidekong" id="hideText6"><p class="txtdp6">Este shampoo es ideal para que tu peludito huela rico y tenga un pelaje suave. Además contiene protección antibacterial para que tus peluditos siempre limpios y protegidos. 
+          </p></span> 
+
+        </section>
+
+        
+
+
+
+
+
+        </main>
+
+        <footer class="footercatproducto">
+
+    
+
+            <nav class="navimgfinales">
+             
+             <img src="./imagenes/NUEVAS_IMAGENES/logo-pare-y-compare.png" class="imgpareycompare">
+             <img src="./imagenes/NUEVAS_IMAGENES/LOGOSIC.png" class="imgsic">
+             <h2 id="byjss">By Jose Idarraga </h2>
+       
+             
+            </nav>
+           
+       
+       
+       
+       
+       
+           </footer>
+
+
+          
+
+
+
+           <script src="./archivos js/index_dom.js" type="module"></script>
+
+           <script src="./archivos js/DOM.js" type="module"></script>
+
+
+
+</body>
+
+</html>
